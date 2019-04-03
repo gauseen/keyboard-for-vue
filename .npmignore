@@ -1,7 +1,10 @@
 /node_modules
 /public
-/src
-!/src/components
+/src/assets
+/src/views
+/src/App.vue
+/src/main.js
+/src/router.js
 
 # devlopment
 .browserslistrc
