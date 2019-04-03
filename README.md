@@ -1,29 +1,20 @@
-# keyboard-vue
+## keyboard for vue
 
-## Project setup
-```
-yarn install
-```
+### 特性
+- 轻量、无其他依赖
+- 支持电脑原生键盘和 keyboard 同时使用
+- 自定义布局、样式
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
+### 使用
+```sh
+# 安装
+yarn add @gauseen/keyboard-for-vue
 ```
 
-### Run your tests
-```
-yarn run test
-```
+```js
+// main.js
+import Vue from 'vue'
+import KeyboardForVue from '@gauseen/keyboard-for-vue'
 
-### Lints and fixes files
+Vue.use(KeyboardForVue)
 ```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
