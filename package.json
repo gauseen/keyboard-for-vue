@@ -1,7 +1,7 @@
 {
   "name": "@gauseen/keyboard-for-vue",
   "version": "0.1.0",
-  "description": "vue virtual keyboard",
+  "description": "virtual keyboard for vue",
   "private": true,
   "author": "gauseen <gauseen@163.com>",
   "main": "./src/components/keyboard/index.js",
@@ -11,32 +11,34 @@
     "serve": "vue-cli-service serve",
     "build:app": "vue-cli-service build",
     "build:lib": "vue-cli-service build --target lib --name keyboardForVue --formats umd,umd-min ./src/components/keyboard/index.js",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "gh:preview": "gh-pages -d dist"
   },
   "keywords": [
     "vue",
+    "virtual",
     "keyboard"
-	],
-	"repository": "git@github.com:gauseen/keyboard-for-vue.git",
-	"bugs": {
+  ],
+  "repository": "git@github.com:gauseen/keyboard-for-vue.git",
+  "bugs": {
     "url": "https://github.com/gauseen/keyboard-for-vue/issues"
-	},
-	"homepage": "https://github.com/gauseen/keyboard-for-vue#readme",
-	"license": "MIT",
-  "dependencies": {
-    "core-js": "^2.6.5",
-    "vue": "^2.6.6",
-    "vue-router": "^3.0.1"
   },
+  "homepage": "https://github.com/gauseen/keyboard-for-vue#readme",
+  "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-eslint": "^3.5.0",
     "@vue/cli-service": "^3.5.0",
     "@vue/eslint-config-standard": "^4.0.0",
     "babel-eslint": "^10.0.1",
+    "core-js": "^2.6.5",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
+    "gh-pages": "^2.0.1",
     "lint-staged": "^8.1.4",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.1",
     "vue-template-compiler": "^2.5.21"
   },
   "gitHooks": {

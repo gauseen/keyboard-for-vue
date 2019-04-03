@@ -18,7 +18,7 @@
           <label for="normal">normal</label>
           <input type="radio" id="number" value="number" v-model="keyboardStyle">
           <label for="number">number</label> &nbsp;
-          <button @click="handleClear"> Clear </button>
+          <button @click.prevent="handleClear"> Clear </button>
         </div>
       </fieldset>
     </form>
