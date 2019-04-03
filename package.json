@@ -11,6 +11,7 @@
     "serve": "vue-cli-service serve",
     "build:app": "vue-cli-service build",
     "build:lib": "vue-cli-service build --target lib --name keyboardForVue --formats umd,umd-min ./src/components/keyboard/index.js",
+    "predeploy": "build:lib",
     "lint": "vue-cli-service lint",
     "gh:preview": "gh-pages -d dist"
   },

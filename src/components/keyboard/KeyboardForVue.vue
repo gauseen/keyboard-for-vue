@@ -51,7 +51,7 @@ export default {
       default: '60px'
     },
     // 键盘背景色
-    lineKeyStyleBgColor: {
+    keyStyleBgColor: {
       type: String,
       default: '#5b6878'
     }
@@ -171,7 +171,7 @@ export default {
       return {
         flex: key.width || 1,
         backgroundImage: `url(${keyImg})`,
-        backgroundColor: key.bgColor || this.lineKeyStyleBgColor
+        backgroundColor: key.bgColor || this.keyStyleBgColor
       }
     },
     getKeyClass (key) {

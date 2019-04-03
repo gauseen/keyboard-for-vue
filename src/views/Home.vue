@@ -22,12 +22,11 @@
         </div>
       </fieldset>
     </form>
-    <keyboard-for-vue :input="input" :is-show.sync="isShow" :keyboardStyle="keyboardStyle" @on-close="handleClosed"></keyboard-for-vue>
+    <keyboard-for-vue :input="input" :is-show.sync="isShow" :keyboard-style="keyboardStyle" @on-close="handleClosed"></keyboard-for-vue>
   </div>
 </template>
 
 <script>
-
 export default {
   name: 'home',
   data () {
