@@ -204,6 +204,7 @@ export default {
   display: flex;
   margin: 10px 0;
   line-height: 60px;
+  text-align: center;
 }
 .keyboard .keyboard__line .keyboard__line__key {
   cursor: pointer;

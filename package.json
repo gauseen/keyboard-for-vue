@@ -2,7 +2,6 @@
   "name": "@gauseen/keyboard-for-vue",
   "version": "0.1.0",
   "description": "virtual keyboard for vue",
-  "private": true,
   "author": "gauseen <gauseen@163.com>",
   "main": "./src/components/keyboard/index.js",
   "unpkg": "./dist/keyboardForVue.umd.min.js",

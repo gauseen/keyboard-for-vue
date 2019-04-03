@@ -27,6 +27,8 @@ Vue.use(KeyboardForVue)
 
 #### 浏览器脚本引入
 ```html
+<link rel="stylesheet" href="https://unpkg.com/@gauseen/keyboard-for-vue/dist/keyboardForVue.css">
+
 <script src="https://unpkg.com/@gauseen/keyboard-for-vue"></script>
 ```
 
