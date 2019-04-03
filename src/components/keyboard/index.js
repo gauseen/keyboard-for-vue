@@ -1,6 +1,7 @@
 import KeyboardForVue from './KeyboardForVue'
 
-const install = function (Vue) {
+function install (Vue) {
   Vue.component(KeyboardForVue.name, KeyboardForVue)
 }
+
 export default install

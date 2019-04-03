@@ -1,12 +1,28 @@
 {
-  "name": "keyboard-vue",
+  "name": "@gauseen/keyboard-for-vue",
   "version": "0.1.0",
+  "description": "vue virtual keyboard",
   "private": true,
+  "author": "gauseen <gauseen@163.com>",
+  "main": "./src/components/keyboard/index.js",
+  "unpkg": "./dist/keyboardForVue.umd.min.js",
   "scripts": {
+    "dev": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build:app": "vue-cli-service build",
+    "build:lib": "vue-cli-service build --target lib --name keyboardForVue --formats umd,umd-min ./src/components/keyboard/index.js",
     "lint": "vue-cli-service lint"
   },
+  "keywords": [
+    "vue",
+    "keyboard"
+	],
+	"repository": "git@github.com:gauseen/keyboard-for-vue.git",
+	"bugs": {
+    "url": "https://github.com/gauseen/keyboard-for-vue/issues"
+	},
+	"homepage": "https://github.com/gauseen/keyboard-for-vue#readme",
+	"license": "MIT",
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.6",
