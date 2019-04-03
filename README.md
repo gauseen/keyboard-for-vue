@@ -1,11 +1,11 @@
-## keyboard for vue
+## virtual keyboard for vue
 
 ### 预览
 [Demo Live](https://gauseen.github.io/keyboard-for-vue/#/)
 
 ### 特性
 - 轻量、无其他依赖
-- 支持电脑原生键盘和 `keyboard` 同时使用
+- 支持电脑原生键盘和 `virtual keyboard` 同时使用
 - 自定义布局、样式
 
 ### 使用
@@ -56,13 +56,13 @@ Vue.use(KeyboardForVue)
         </div>
       </fieldset>
     </form>
-		<keyboard-for-vue
-			:input="input"
-			:is-show.sync="isShow"
-			:keyboard-style="keyboardStyle"
-			@on-close="handleClosed"
-		>
-		</keyboard-for-vue>
+    <keyboard-for-vue
+      :input="input"
+      :is-show.sync="isShow"
+      :keyboard-style="keyboardStyle"
+      @on-close="handleClosed"
+    >
+    </keyboard-for-vue>
   </div>
 </template>
 ```
@@ -110,7 +110,7 @@ export default {
 | `line-style-height` | `String` | 每个键的高度 | `60px` | - | 否 |
 | `key-style-bg-color` | `String` | 每个键背景色 | `#5b6878` | - | 否 |
 
-
+### 方法
 | 方法 | 说明 | 回调参数 |
 |-------|-------|---------|
 | `on-close` | 键盘消失时回调 | `function(inputValue)` |
