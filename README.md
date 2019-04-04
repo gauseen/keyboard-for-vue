@@ -107,7 +107,7 @@ export default {
 |-------|-------|---------|-------|-------|-------|
 | `input` | `HTMLInputElement` | 键盘将要输入的 `input DOM` 对象 | - | `input DOM` | 否 |
 | `is-show.sync` | `Boolean` | 虚拟键盘是否显示 | `false` | `true、false` | 否 |
-| `keyboard-style` | `String` | 虚拟键盘是否显示 | `normal` | `normal、number` | 否 |
+| `keyboard-style` | `String` | 虚拟键盘展示模式 | `normal` | `normal、number` | 否 |
 | `font-color` | `String` | 键盘字体颜色 | `#fff` | - | 否 |
 | `line-style-height` | `String` | 每个键的高度 | `60px` | - | 否 |
 | `key-style-bg-color` | `String` | 每个键背景色 | `#5b6878` | - | 否 |
